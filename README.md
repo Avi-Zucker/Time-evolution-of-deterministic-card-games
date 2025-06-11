@@ -19,11 +19,9 @@ It is useful for understanding how deterministic systems Time-evolution depened 
 - `analyze.py` — runs multiple games and collects statistics
 
 # Example Use Cases
-Analyze the distribution number of turns until a game ends
-
-Detect looping behavior
-
-Compare different games
+- Analyze the distribution number of turns until a game ends
+- Detect looping behavior
+- Compare different games
 
 # Requirements
 Python 3.8+
