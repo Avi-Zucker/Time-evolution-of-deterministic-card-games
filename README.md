@@ -1,4 +1,4 @@
-# Time-evolution-of-deterministic-card-games
+# Time evolution of deterministic card games
 
 # Overview
 This project simulates a deterministic card game using Python. It includes:
