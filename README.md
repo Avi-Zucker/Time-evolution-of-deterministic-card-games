@@ -42,7 +42,5 @@ run
 ```bash
 python game.py <game_name>
 ```
-
-
-
+# Credit
 this project is part of the [Puthon course](https://github.com/Code-Maven/wis-python-course-2025-03?tab=readme-ov-file) by [Gábor Szabó](https://github.com/szabgab)
