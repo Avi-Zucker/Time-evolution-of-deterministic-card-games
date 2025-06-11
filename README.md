@@ -15,9 +15,8 @@ Card games are usually associated with randomness. However, if both players foll
 It is useful for understanding how deterministic systems Time-evolution depened on the intial condition.
 
 # Files
-game_<name>.py — runs a single deterministic game
-
-analyze.py — runs many games and collects statistics
+- `game.py` — runs a single deterministic game
+- `analyze.py` — runs multiple games and collects statistics
 
 # Example Use Cases
 Analyze the distribution number of turns until a game ends
@@ -32,10 +31,12 @@ Python 3.8+
 Standard library only (unless extended)
 
 # How to Download and use
-Clone the repository using git
+Clone the repository using git:
 
+```bash
 git clone https://github.com/Avi-Zucker/deterministic-card-game.git
 cd deterministic-card-game
+
 
 run
 python game.py <game_name>
