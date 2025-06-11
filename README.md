@@ -5,7 +5,7 @@ This project simulates a deterministic card game using Python.
 
 It includes:
 
-scripts that implements the rules and logic of the game, The type of איק games is deterministic card games (e.g., war, Hearts).
+scripts that implements the rules and logic of the game, The type of the games is deterministic card games (e.g., war, Hearts).
 
 A second script that runs multiple simulations of the game and collects statistics - such as the number of turns until the game ends, and plut the outcome.
 
