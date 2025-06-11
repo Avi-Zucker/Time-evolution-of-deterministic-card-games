@@ -36,11 +36,12 @@ Clone the repository using git:
 ```bash
 git clone https://github.com/Avi-Zucker/deterministic-card-game.git
 cd deterministic-card-game
-
+```
 
 run
+```bash
 python game.py <game_name>
-
+```
 <game_name> is the name of the game to simulate (e.g., war, Hearts)
 
 
