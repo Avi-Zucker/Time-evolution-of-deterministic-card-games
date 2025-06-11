@@ -1,9 +1,11 @@
 # Time evolution of deterministic card games
 
 # Overview
-This project simulates a deterministic card game using Python. It includes:
+This project simulates a deterministic card game using Python.
 
-A script that implements the rules and logic of a two-player deterministic card game using a standard deck.
+It includes:
+
+scripts that implements the rules and logic of the game, The type of איק games is deterministic card games (e.g., war, Hearts).
 
 A second script that runs multiple simulations of the game and collects statistics - such as the number of turns until the game ends, and plut the outcome.
 
@@ -40,9 +42,6 @@ run
 ```bash
 python game.py <game_name>
 ```
-<game_name> is the name of the game to simulate (e.g., war, Hearts)
-
-
 
 
 
