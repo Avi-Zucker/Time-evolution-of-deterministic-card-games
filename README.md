@@ -5,7 +5,7 @@ This project simulates a deterministic card game using Python. It includes:
 
 A script that implements the rules and logic of a two-player deterministic card game using a standard deck.
 
-A second script that runs multiple simulations of the game and collects statistics, such as the number of turns until the game ends.
+A second script that runs multiple simulations of the game and collects statistics - such as the number of turns until the game ends, and plut the outcome.
 
 The goal is to explore deterministic behavior in card games and analyze how initial conditions affect game length.
 
@@ -15,7 +15,7 @@ Card games are usually associated with randomness. However, if both players foll
 It is useful for understanding how deterministic systems Time-evolution depened on the intial condition.
 
 # Files
-- `game.py` — runs a single deterministic game
+- `game_<name>.py` — runs a single deterministic game
 - `analyze.py` — runs multiple games and collects statistics
 
 # Example Use Cases
