@@ -29,8 +29,10 @@ It is useful for understanding how Time-evolution of deterministic systems depen
 - `War_ver1.py`
 - `War_ver2.py`
 - `begger_my_neighbour.py`
-- simulation — runs multiple games and collects statistics
+- Simulation — runs multiple games and collects statistics
 - `Game_Simulator.py`
+- Module
+- `common.py`
 
 # Example Use Cases
 - Analyze the distribution of the number of turns until a game ends
