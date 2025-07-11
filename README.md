@@ -22,7 +22,7 @@ The goal is to explore deterministic behavior in card games and analyze how init
 
 Card games are usually associated with randomness. However, if both players follow strict deterministic rules and the deck order is fixed, the game outcome becomes predictable. This project demonstrates that concept, using Python to simulate and analyze such games.
 
-It is useful for understanding how Time-evolution of deterministic systems depend on the intial condition.
+It is useful for understanding how Time-evolution of deterministic systems depend on the initial condition.
 
 # Files
 - Game files - runs a single deterministic game
@@ -33,14 +33,18 @@ It is useful for understanding how Time-evolution of deterministic systems depen
 - `Game_Simulator.py`
 
 # Example Use Cases
-- Analyze the distribution number of turns until a game ends
+- Analyze the distribution of the number of turns until a game ends
 - Detect looping behavior
 - Compare different games, or different versions of the same game
 
 # Example Output
 
-The following plot shows a histogram of number of turns for 1000 War games:
+The following plot shows a histogram of 30,000 begger_my_neighbour games:
 ![example](example_output.png)
+
+The red curve shows an exponential fit to the data, indicating that the probability of a game lasting `t` turns from its peek decays exponentially.  
+The fitted decay parameter is denoted by **λ** (lambda), where the frequency approximately follows the equation: frequency ≈ exp(−λ · t)
+
 
 
 # Requirements
