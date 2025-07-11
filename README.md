@@ -6,13 +6,13 @@ This project simulates a deterministic card game using Python.
 It includes:
 
 for each Game a script that inplements the game with a random deck of cards, the script run the game
-              according to its specific rules until the game ends, and determines how many turns the gamr                 lasts.
+              according to its specific rules until the game ends, and determines how many turns the game lasts.
 
-A second script runs multiple simulations of the game and collects from each game the number of turns until the game ends, and plut the outcome.              
+A second script runs multiple simulations of the game and collects from each game the number of turns until the game ends, and plot the distribution of outcomes.              
 
-The type of the games is deterministic - games where the players dont make any decisions during the game
+The type of the games is deterministic - games where the players don't make any decisions during the game
 
-(e.g., [war](https://en.wikipedia.org/wiki/War_(card_game)), 
+(You can see here the games I used with there ruls, [war](https://en.wikipedia.org/wiki/War_(card_game)), 
 [Beggar-my-neighbour](https://en.wikipedia.org/wiki/Beggar-my-neighbour)).
 
 
@@ -22,7 +22,7 @@ The goal is to explore deterministic behavior in card games and analyze how init
 
 Card games are usually associated with randomness. However, if both players follow strict deterministic rules and the deck order is fixed, the game outcome becomes predictable. This project demonstrates that concept, using Python to simulate and analyze such games.
 
-It is useful for understanding how deterministic systems Time-evolution depened on the intial condition.
+It is useful for understanding how Time-evolution of deterministic systems depend on the intial condition.
 
 # Files
 - Game files - runs a single deterministic game
@@ -37,10 +37,16 @@ It is useful for understanding how deterministic systems Time-evolution depened 
 - Detect looping behavior
 - Compare different games, or different versions of the same game
 
+# Example Output
+
+The following plot shows a histogram of number of turns for 1000 War games:
+![example](example_output.png)
+
+
 # Requirements
 Python 3.8+
 
-Standard library only (unless extended)
+Standard library only
 
 # How to Download and use
 Clone the repository using git:
