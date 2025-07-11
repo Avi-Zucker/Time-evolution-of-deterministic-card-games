@@ -42,7 +42,7 @@ It is useful for understanding how Time-evolution of deterministic systems depen
 The following plot shows a histogram of 30,000 begger_my_neighbour games:
 ![example](example_output.png)
 
-The red curve shows an exponential fit to the data, indicating that the probability of a game lasting `t` turns from its peek decays exponentially.  
+The red curve shows an exponential fit to the data, indicating that the probability of a game lasting **t** turns from its peek decays exponentially.  
 The fitted decay parameter is denoted by **λ** (lambda), where the frequency approximately follows the equation: frequency ≈ exp(−λ · t)
 
 
